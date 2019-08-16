@@ -179,7 +179,7 @@ while check_for_question_marks(my_graph):
             
      
         #*********APPEND NEXT UNKNOWN PATH TO BFS RESULT****#
-        translated.append(coordinate_of_next_q)
+        # translated.append(coordinate_of_next_q)
         print("Translated",translated)
         for bfs_new_path in translated:
             player.travel(bfs_new_path)
